@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,300;0,400;0,600;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+    background: black;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.meme-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-shadow: 2px 2px red, 4px 4px orange, 6px 6px yellow, 8px 8px green, 10px 10px blue, 12px 12px indigo, 14px 14px violet; */
+}
+
+img {
+    height: 65vh;
+    width: auto;
+}
+
+.btn {
+    background: linear-gradient(to right top, #5f63ce, #a271f8);
+    box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 3rem;
+    padding: .7rem 2rem;
+    border-radius: 3rem;
+    margin-top: 5rem;
+    cursor: pointer;
+}
